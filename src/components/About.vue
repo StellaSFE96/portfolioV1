@@ -1,0 +1,70 @@
+<template>
+  <section id="about">
+    <div
+      class="container"
+      data-aos="fade-right"
+      data-aos-duration="1600"
+      data-aos-easing="ease"
+      data-aos-once="false"
+      data-aos-delay="200"
+    >
+      <h1>/ About me</h1>
+      <p>
+        I am currently <strong>studying</strong> frontend development at the
+        <strong>IT Högskola</strong> in Stockholm. My interest in web
+        development peaked with HTML & CSS when i wanted to change a font color
+        in my personal blog and i had no clue what i was looking at while
+        browsing the code! This set me on a <strong>journey</strong> to learn
+        coding.
+      </p>
+      <p>
+        Now i’m looking for my very first Frontend Developer
+        <strong>internship</strong> where i get to use my
+        <strong>curiosity</strong>, <strong>drive</strong> and prior
+        <strong>experience</strong>
+        in retail and customer service to contribute to future projects and to
+        <strong>grow</strong> as a developer.
+      </p>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss" scoped>
+#about {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 30vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 50%;
+
+    h1 {
+      font-family: "Karla", sans-serif;
+      font-size: 3.8rem;
+      color: #ce34ab;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      color: #b495ad;
+    }
+
+    strong {
+      color: #fcddec;
+    }
+  }
+}
+</style>
