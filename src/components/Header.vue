@@ -2,14 +2,63 @@
   <div id="header">
     <div class="container">
       <div class="logo-container">
-        <h1 class="logo">SS</h1>
+        <h1
+          class="logo"
+          data-aos="fade-down"
+          data-aos-delay="1000"
+          data-aos-easing="ease"
+          data-aos-duration="2000"
+        >
+          SS
+        </h1>
       </div>
       <div class="nav-container">
-        <a class="link link-1" href="#about">ABOUT</a>
-        <a class="link link-2" href="#experience">EXPERIENCE</a>
-        <a class="link link-3" href="#projects">WORK</a>
-        <a class="link link-4" href="#contact">CONTACT</a>
-        <a class="resume link link-5" href="">RESUME</a>
+        <a
+          class="link link-1"
+          href="#about"
+          data-aos="fade-down"
+          data-aos-delay="900"
+          data-aos-easing="ease"
+          data-aos-duration="2000"
+          >ABOUT</a
+        >
+        <a
+          class="link link-2"
+          href="#experience"
+          data-aos="fade-down"
+          data-aos-delay="800"
+          data-aos-easing="ease"
+          data-aos-duration="2000"
+        >
+          EXPERIENCE</a
+        >
+        <a
+          class="link link-3"
+          href="#projects"
+          data-aos="fade-down"
+          data-aos-delay="700"
+          data-aos-easing="ease"
+          data-aos-duration="2000"
+          >WORK</a
+        >
+        <a
+          class="link link-4"
+          href="#contact"
+          data-aos="fade-down"
+          data-aos-delay="600"
+          data-aos-easing="ease"
+          data-aos-duration="2000"
+          >CONTACT</a
+        >
+        <a
+          class="resume link link-5"
+          href=""
+          data-aos="fade-down"
+          data-aos-delay="500"
+          data-aos-easing="ease"
+          data-aos-duration="2000"
+          >RESUME</a
+        >
       </div>
     </div>
   </div>
@@ -51,6 +100,11 @@
     font-family: "Karla", sans-serif;
     font-size: 1rem;
     text-decoration: none;
+    transition: 50ms;
+
+    &:hover {
+      color: #ce34ab;
+    }
   }
 
   .link-5 {

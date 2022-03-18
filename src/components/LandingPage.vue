@@ -1,9 +1,28 @@
 <template>
   <section id="landing-page">
     <div class="container">
-      <h1><span>Hi,</span> I'm Stella.</h1>
-      <h2>I'm a Frontend developer with <span> a passion for design.</span></h2>
-      <h3>
+      <h1
+        data-aos="fade-down"
+        data-aos-delay="400"
+        data-aos-easing="ease"
+        data-aos-duration="2000"
+      >
+        <span>Hi,</span> I'm Stella.
+      </h1>
+      <h2
+        data-aos="fade-down"
+        data-aos-delay="300"
+        data-aos-easing="ease"
+        data-aos-duration="2000"
+      >
+        I'm a Frontend developer with <span> a passion for design.</span>
+      </h2>
+      <h3
+        data-aos="fade-down"
+        data-aos-delay="300"
+        data-aos-easing="ease"
+        data-aos-duration="2000"
+      >
         I'm based in stockholm where i also study Frontend development.
         <span
           >My aim is to create beautiful, accessible and human centered web
