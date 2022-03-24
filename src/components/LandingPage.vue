@@ -77,10 +77,12 @@ export default {
       .git-hub-icon {
         margin-left: 15px;
         max-width: 4%;
+        transition: 300ms;
       }
 
       .linkedin-icon {
         max-width: 4%;
+        transition: 300ms;
       }
 
       .icon {

@@ -104,7 +104,7 @@
     font-family: "Karla", sans-serif;
     font-size: 1rem;
     text-decoration: none;
-    transition: 50ms;
+    transition: 400ms ease-out;
 
     &:hover {
       color: #ce34ab;
@@ -120,6 +120,7 @@
     border-radius: 6px;
     padding: 7px;
     box-shadow: 1px 1px 1px rgb(207, 85, 177);
+    transition: 500ms ease-in-out;
 
     &:hover {
       background-color: #5a165f;

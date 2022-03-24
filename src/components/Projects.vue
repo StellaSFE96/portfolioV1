@@ -133,6 +133,11 @@ export default {
       margin-top: 2rem;
       display: flex;
       justify-content: space-between;
+      transition: 300ms ease-in-out;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
     }
 
     .list-content {

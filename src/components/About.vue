@@ -63,6 +63,11 @@ export default {};
 
     strong {
       color: #fcddec;
+      transition: 400ms ease-out;
+
+      &:hover {
+        color: #ce34ab;
+      }
     }
   }
 }
