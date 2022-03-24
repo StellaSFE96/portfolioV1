@@ -37,11 +37,11 @@ export default {
 <style lang="scss" scoped>
 #experience {
   height: 100vh;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 30vh;
+  align-items: center;
 
   .skills {
     margin-top: 50px;
@@ -90,6 +90,35 @@ export default {
 
     span {
       color: #ebc0d5;
+    }
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 770px) {
+  #experience {
+    padding: 1vh;
+    .skills {
+      width: 90%;
+
+      .skill-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 350px;
+        margin: 0px;
+      }
+
+      .list-item {
+        display: flex;
+        padding-right: 50px;
+      }
+    }
+
+    .container {
+      width: 100%;
+
+      h1 {
+        font-size: 3rem;
+      }
     }
   }
 }

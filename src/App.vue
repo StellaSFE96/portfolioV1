@@ -18,7 +18,7 @@ import Experience from "./components/Experience.vue";
 import Projects from "./components/Projects.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
-import skills from "./assets/skills.js";
+import skills from "./assets/data/skills.js";
 
 export default {
   name: "App",

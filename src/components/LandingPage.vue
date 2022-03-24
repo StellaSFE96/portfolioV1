@@ -19,22 +19,40 @@
       </h2>
       <h3
         data-aos="fade-down"
-        data-aos-delay="300"
+        data-aos-delay="350"
         data-aos-easing="ease"
         data-aos-duration="2000"
       >
-        I'm based in stockholm where i also study Frontend development.
-        <span
-          >My aim is to create beautiful, accessible and human centered web
-          experiences.
-        </span>
+        I'm based in stockholm where i also study Frontend development. My aim
+        is to create beautiful, accessible and human centered web experiences.
       </h3>
+      <div
+        class="logos"
+        data-aos="fade-down"
+        data-aos-delay="350"
+        data-aos-easing="ease"
+        data-aos-duration="2000"
+      >
+        <a href="https://linkedin.com/in/stella-samaranayake" target="_blank">
+          <img class="linkedin-icon icon" :src="linkedin" alt="Github icon" />
+        </a>
+        <a href="https://github.com/StellaSFE96" target="_blank">
+          <img class="git-hub-icon icon" :src="gitHub" alt="Github icon" />
+        </a>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      gitHub: require("../assets/icons/gittwo.png"),
+      linkedin: require("../assets/icons/linkedin.png"),
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -43,8 +61,7 @@ export default {};
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 30vh;
+  align-items: center;
 
   .container {
     display: flex;
@@ -52,6 +69,26 @@ export default {};
     justify-content: space-evenly;
     height: 50vh;
     margin-top: 120px;
+    width: 50%;
+
+    .logos {
+      margin-top: 10px;
+
+      .git-hub-icon {
+        margin-left: 15px;
+        max-width: 4%;
+      }
+
+      .linkedin-icon {
+        max-width: 4%;
+      }
+
+      .icon {
+        &:hover {
+          transform: translateY(-5px);
+        }
+      }
+    }
   }
 
   h1 {
@@ -65,6 +102,7 @@ export default {};
 
   h2 {
     font-size: 2.5rem;
+    max-width: 80%;
   }
   h3 {
     font-weight: 100;
@@ -74,9 +112,93 @@ export default {};
     font-family: "Roboto", sans-serif;
     letter-spacing: 1px;
     color: #b495ad;
+  }
+}
 
-    span {
-      display: block;
+@media only screen and (min-width: 370px) and (max-width: 500px) {
+  #landing-page {
+    height: 100vh;
+    padding: 1vh;
+
+    .container {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      padding-bottom: 50px;
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  #landing-page {
+    height: 80vh;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 50vh;
+      margin-top: 140px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      max-width: 90%;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  #landing-page {
+    height: 80vh;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 50vh;
+      margin-top: 120px;
+      width: 80%;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      max-width: 90%;
+    }
+    h3 {
+      font-size: 1.2rem;
     }
   }
 }

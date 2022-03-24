@@ -39,8 +39,7 @@ export default {};
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 30vh;
+  align-items: center;
 
   .container {
     display: flex;
@@ -64,6 +63,29 @@ export default {};
 
     strong {
       color: #fcddec;
+    }
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 760px) {
+  #about {
+    height: 75vh;
+    padding: 1vh;
+
+    .container {
+      width: 100%;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      p:nth-of-type(2) {
+        margin-top: 10px;
+      }
     }
   }
 }

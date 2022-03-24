@@ -1,9 +1,116 @@
 <template>
-  <section id="contact"></section>
+  <section id="contact">
+    <div class="container">
+      <vue-typed-js
+        :showCursor="false"
+        :strings="['...']"
+        :startDelay="1000"
+        :typeSpeed="1000"
+        :loop="true"
+        ><h1>/ Get in touch<span class="typing"></span></h1
+      ></vue-typed-js>
+      <p>
+        As i am currently looking for a new oppertunity i would love to hear
+        from you! My inbox is always open whether you have a question or just
+        want to connect, feel free to reach out.
+      </p>
+      <a
+        class="button"
+        href="mailto: stella.samaranayake@outlook.com?subject=Let's connect!"
+        target="_blank"
+      >
+        Say Hello
+      </a>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+#contact {
+  height: 60vh;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+
+    h1 {
+      font-family: "Karla", sans-serif;
+      font-size: 3.8rem;
+      color: #ce34ab;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      color: #b495ad;
+    }
+
+    .button {
+      height: 3rem;
+      width: 11rem;
+      font-family: "Karla", sans-serif;
+      text-decoration: none;
+      border: none;
+      background-color: #bb349b;
+      border-radius: 30px;
+      color: #f1c1e6;
+      font-size: 1.7em;
+      margin-top: 2rem;
+      padding: 6px;
+      transition: transform 300ms ease-in-out;
+
+      &:hover {
+        background-color: #ad3090;
+        transform: scale(1.1);
+      }
+    }
+
+    span {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 500px) {
+  #contact {
+    padding: 5vh;
+
+    .container {
+      width: 100%;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1115px) {
+  #contact {
+    padding: 5vh;
+
+    .container {
+      width: 50%;
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+</style>

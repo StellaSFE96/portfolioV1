@@ -2,15 +2,16 @@
   <div id="header">
     <div class="container">
       <div class="logo-container">
-        <h1
+        <a
+          href="#landing-page"
           class="logo"
           data-aos="fade-down"
           data-aos-delay="1000"
           data-aos-easing="ease"
           data-aos-duration="2000"
         >
-          SS
-        </h1>
+          SS</a
+        >
       </div>
       <div class="nav-container">
         <a
@@ -52,11 +53,12 @@
         >
         <a
           class="resume link link-5"
-          href=""
+          href="https://drive.google.com/file/d/18BF3Jb6OHciMCDd9AeypAl8Oh-X3Gb8B/view?usp=sharing"
           data-aos="fade-down"
           data-aos-delay="500"
           data-aos-easing="ease"
           data-aos-duration="2000"
+          target="_blank"
           >RESUME</a
         >
       </div>
@@ -80,11 +82,13 @@
 
 .logo-container {
   width: 50%;
-  h1 {
+  .logo {
     margin-left: 30px;
     color: #ce34ab;
     font-family: "Karla", sans-serif;
+    font-weight: 500;
     font-size: 2.5rem;
+    text-decoration: none;
   }
 }
 
@@ -120,6 +124,49 @@
     &:hover {
       background-color: #5a165f;
     }
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 480px) {
+  .logo-container .logo {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    padding-right: 5px;
+  }
+
+  .nav-container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 5px;
+
+    .link {
+      font-size: 0.7rem;
+    }
+
+    .resume {
+      padding: 3px;
+    }
+  }
+
+  .link {
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 485px) and (max-width: 1065px) {
+  .logo-container .logo {
+    font-size: 2rem;
+    margin-left: 15px;
+  }
+
+  .nav-container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  .link {
+    margin-right: 12px;
   }
 }
 </style>

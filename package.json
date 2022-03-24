@@ -10,7 +10,9 @@
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-typed-js": "^0.1.2",
+    "vueperslides": "^2.15.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
