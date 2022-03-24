@@ -88,13 +88,14 @@ export default {};
 
 @media only screen and (min-width: 370px) and (max-width: 500px) {
   #contact {
-    padding: 5vh;
+    // padding: 2vh;
+    padding: 40vh 1vh;
 
     .container {
       width: 100%;
 
       h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
       }
     }
   }
@@ -102,13 +103,17 @@ export default {};
 
 @media only screen and (min-width: 500px) and (max-width: 1115px) {
   #contact {
-    padding: 5vh;
+    padding: 40vh 1vh;
 
     .container {
-      width: 50%;
+      width: 85%;
 
       h1 {
         font-size: 3rem;
+      }
+
+      p {
+        margin-top: 20px;
       }
     }
   }

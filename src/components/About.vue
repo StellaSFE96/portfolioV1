@@ -74,11 +74,11 @@ export default {};
 
 @media only screen and (min-width: 370px) and (max-width: 760px) {
   #about {
-    height: 75vh;
+    height: 100vh;
     padding: 1vh;
 
     .container {
-      width: 100%;
+      width: 95%;
 
       h1 {
         font-size: 3rem;
@@ -86,10 +86,11 @@ export default {};
 
       p {
         font-size: 1rem;
+        margin-top: 20px;
       }
 
       p:nth-of-type(2) {
-        margin-top: 10px;
+        margin-top: 20px;
       }
     }
   }

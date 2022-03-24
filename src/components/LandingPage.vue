@@ -76,12 +76,12 @@ export default {
 
       .git-hub-icon {
         margin-left: 15px;
-        max-width: 4%;
+        max-width: 2rem;
         transition: 300ms;
       }
 
       .linkedin-icon {
-        max-width: 4%;
+        max-width: 2rem;
         transition: 300ms;
       }
 
@@ -123,20 +123,22 @@ export default {
     padding: 1vh;
 
     .container {
-      width: 100%;
+      width: 95%;
     }
 
     h1 {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
 
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      margin-top: 20px;
     }
 
     h3 {
       padding-bottom: 50px;
       font-size: 1rem;
+      margin-top: 20px;
     }
   }
 }
@@ -156,7 +158,7 @@ export default {
       justify-content: space-evenly;
       height: 50vh;
       margin-top: 140px;
-      width: 100%;
+      width: 95%;
     }
 
     h1 {

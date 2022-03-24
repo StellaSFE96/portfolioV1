@@ -97,6 +97,7 @@ export default {
 @media only screen and (min-width: 370px) and (max-width: 770px) {
   #experience {
     padding: 1vh;
+    height: 110vh;
     .skills {
       width: 90%;
 
@@ -115,6 +116,7 @@ export default {
 
     .container {
       width: 100%;
+      margin-left: 20px;
 
       h1 {
         font-size: 3rem;

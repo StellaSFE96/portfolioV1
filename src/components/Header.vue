@@ -129,6 +129,10 @@
 }
 
 @media only screen and (min-width: 370px) and (max-width: 480px) {
+  #header {
+    height: 80px;
+  }
+
   .logo-container .logo {
     font-size: 1.5rem;
     margin-left: 15px;

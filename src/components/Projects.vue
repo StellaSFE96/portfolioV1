@@ -133,7 +133,6 @@ export default {
       margin-top: 2rem;
       display: flex;
       justify-content: space-between;
-      transition: 300ms ease-in-out;
 
       &:hover {
         transform: translateY(-5px);
@@ -168,7 +167,8 @@ export default {
 
       img {
         margin: 20px 0px 0 0;
-        width: 60%;
+        min-width: 90%;
+        height: auto;
         border-radius: 6px;
         transition: transform 300ms ease-in-out;
         cursor: pointer;
@@ -216,7 +216,7 @@ export default {
 
       .list-content {
         padding: 5px;
-        min-width: 60%;
+        min-width: 90%;
         border-radius: 6px;
       }
     }
