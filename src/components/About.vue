@@ -10,16 +10,15 @@
     >
       <h1>/ About me</h1>
       <p>
-        I am currently <strong>studying</strong> frontend development at the
+        I'm currently <strong>studying</strong> Frontend development at the
         <strong>IT Högskola</strong> in Stockholm. My interest in web
-        development peaked with HTML & CSS when i wanted to change a font color
-        in my personal blog and i had no clue what i was looking at while
-        browsing the code! This set me on a <strong>journey</strong> to learn
-        coding.
+        development peaked with HTML & CSS when I wanted to change a font color
+        in my personal blog. I had no clue what I was looking at while browsing
+        the code! This set me on a <strong>journey</strong> to learn coding.
       </p>
       <p>
-        Now i’m looking for my very first Frontend Developer
-        <strong>internship</strong> where i get to use my
+        Now I'm looking for my very first Frontend Developer
+        <strong>internship</strong> where I get to use my
         <strong>curiosity</strong>, <strong>drive</strong> and prior
         <strong>experience</strong>
         in retail and customer service to contribute to future projects and to

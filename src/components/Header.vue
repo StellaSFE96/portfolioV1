@@ -59,7 +59,7 @@
           data-aos-easing="ease"
           data-aos-duration="2000"
           target="_blank"
-          >RESUME</a
+          >RESUMÉ</a
         >
       </div>
     </div>

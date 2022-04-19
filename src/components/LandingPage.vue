@@ -23,7 +23,7 @@
         data-aos-easing="ease"
         data-aos-duration="2000"
       >
-        I'm based in stockholm where i also study Frontend development. My aim
+        I'm based in Stockholm where i also study Frontend development. My aim
         is to create beautiful, accessible and human centered web experiences.
       </h3>
       <div

@@ -10,7 +10,7 @@
         ><h1>/ Get in touch<span class="typing"></span></h1
       ></vue-typed-js>
       <p>
-        As i am currently looking for a new oppertunity i would love to hear
+        As I am currently looking for a new opportunity I would love to hear
         from you! My inbox is always open whether you have a question or just
         want to connect, feel free to reach out.
       </p>

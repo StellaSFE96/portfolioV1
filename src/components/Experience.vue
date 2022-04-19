@@ -3,9 +3,9 @@
     <div class="container">
       <h1>/ Experience</h1>
       <p>
-        Some of the main technologies i have come to learn and implement while
-        building school projects are <span>Vanilla JavaScript</span> and
-        <span>Vue.js</span>. Below are some more i have been working with:
+        Some of the main technologies I have come to learn and implement while
+        building School projects are <span>Vanilla JavaScript</span> and
+        <span>Vue.js</span>. Below are some more I have been working with:
       </p>
     </div>
     <div class="skills">

@@ -43,7 +43,7 @@ export default {
         },
         {
           title: "E-wallet App",
-          desc: "A single page application built in Vue.js with user options such as add new cards, view active card in card stack. Includes two views which shows home with added cards and second view for add new card.",
+          desc: "A single page application built in Vue.js with user options such as add new cards and view active card in card stack. Includes two views which shows home with added cards and second view for add new card.",
           link: "https://github.com/StellaSFE96/E-wallet",
           imagePath: require("../assets/e-wallet/home.png"),
         },
