@@ -207,7 +207,7 @@ export default {
   }
 }
 
-@media only screen and (min-width: 1540px) and (max-width: 2000px) {
+@media only screen and (min-width: 1537px) and (max-width: 2500px) {
   #landing-page {
     height: 80vh;
     padding: 1vh;
@@ -222,7 +222,7 @@ export default {
       justify-content: space-evenly;
       height: 50vh;
       margin-top: 120px;
-      width: 50%;
+      width: 30%;
     }
   }
 }
