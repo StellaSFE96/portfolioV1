@@ -118,4 +118,22 @@ export default {};
     }
   }
 }
+
+@media only screen and (min-width: 1537px) and (max-width: 2560px) {
+  #contact {
+    padding: 40vh 1vh;
+
+    .container {
+      width: 32%;
+
+      p {
+        margin-top: 40px;
+      }
+
+      .button {
+        margin-top: 100px;
+      }
+    }
+  }
+}
 </style>

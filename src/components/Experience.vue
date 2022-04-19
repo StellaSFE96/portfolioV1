@@ -126,8 +126,33 @@ export default {
 }
 
 @media only screen and (min-width: 1537px) and (max-width: 2560px) {
-  .container {
-    width: 30%;
+  #experience {
+    padding: 1vh;
+    height: 100vh;
+    .skills {
+      width: 30%;
+
+      .skill-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 600px;
+        margin: 20px;
+      }
+
+      .list-item {
+        display: flex;
+        padding-right: 100px;
+      }
+    }
+
+    .container {
+      width: 30%;
+      margin-left: 20px;
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
   }
 }
 </style>
