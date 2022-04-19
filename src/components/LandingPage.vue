@@ -206,4 +206,24 @@ export default {
     }
   }
 }
+
+@media only screen and (min-width: 1540px) and (max-width: 2000px) {
+  #landing-page {
+    height: 80vh;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 50vh;
+      margin-top: 120px;
+      width: 50%;
+    }
+  }
+}
 </style>
