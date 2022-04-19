@@ -124,4 +124,10 @@ export default {
     }
   }
 }
+
+@media only screen and (min-width: 1537px) and (max-width: 2560px) {
+  .container {
+    width: 30%;
+  }
+}
 </style>

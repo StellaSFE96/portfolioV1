@@ -95,4 +95,28 @@ export default {};
     }
   }
 }
+
+@media only screen and (min-width: 1537px) and (max-width: 2560px) {
+  #about {
+    height: 100vh;
+    padding: 1vh;
+
+    .container {
+      width: 30%;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1rem;
+        margin-top: 20px;
+      }
+
+      p:nth-of-type(2) {
+        margin-top: 20px;
+      }
+    }
+  }
+}
 </style>

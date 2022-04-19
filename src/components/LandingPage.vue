@@ -207,7 +207,7 @@ export default {
   }
 }
 
-@media only screen and (min-width: 1537px) and (max-width: 2500px) {
+@media only screen and (min-width: 1537px) and (max-width: 2560px) {
   #landing-page {
     height: 80vh;
     padding: 1vh;
@@ -221,7 +221,7 @@ export default {
       flex-direction: column;
       justify-content: space-evenly;
       height: 50vh;
-      margin-top: 120px;
+      margin-top: 200px;
       width: 30%;
     }
   }
