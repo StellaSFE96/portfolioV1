@@ -39,7 +39,7 @@ export default {
           title: "Desserts & Cocktails Recipe Collection",
           desc: "A Fullstack Recipe collection site built in React.js with Typescript, consuming a Rest-API built with NodeJS, Express and MongoDB. Backend deployed to Heroku and MongoDB Atlas while Frontend on Netlify.",
           link: "https://github.com/StellaSFE96/Recipe-site-React",
-          imagePath: require("../assets/recipes/desserts-cocktails.PNG"),
+          imagePath: require("../assets/recipes/recipe.png"),
         },
         {
           title: "Sinus Webshop",
