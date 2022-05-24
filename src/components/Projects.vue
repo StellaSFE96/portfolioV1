@@ -36,6 +36,12 @@ export default {
       gitLogo: require("../assets/github/GitHub-Mark-Light-120px-plus.png"),
       projects: [
         {
+          title: "Desserts & Cocktails Recipe Collection",
+          desc: "A Fullstack Recipe collection site built in React.js with Typescript, consuming a Rest-API built with NodeJS, Express and MongoDB. Backend deployed to Heroku and MongoDB Atlas while Frontend on Netlify.",
+          link: "https://github.com/StellaSFE96/Recipe-site-React",
+          imagePath: require("../assets/recipes/desserts-cocktails.PNG"),
+        },
+        {
           title: "Sinus Webshop",
           desc: "Sinus webshop is an online store built in Vue.js, Vuex and Vue Router with common features like add/ remove items in cart, checkout, register user or shop as a guest.",
           link: "https://github.com/StellaSFE96/sinus-webshop",
