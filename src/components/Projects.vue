@@ -36,8 +36,14 @@ export default {
       gitLogo: require("../assets/github/GitHub-Mark-Light-120px-plus.png"),
       projects: [
         {
+          title: "Lindcode tutorials learning platform",
+          desc: "A Fullstack web app built in React.js with Javascript, SCSS and Axios consuming a Rest-API built with MongoDB on Railway, Mongoose, NodeJs and ExpressJs",
+          link: "https://github.com/StellaSFE96/Recipe-site-React",
+          imagePath: require("../assets/lindcode/tutorial.png"),
+        },
+        {
           title: "Desserts & Cocktails Recipe Collection",
-          desc: "A Fullstack Recipe collection site built in React.js with Typescript, consuming a Rest-API built with NodeJS, Express and MongoDB. Backend deployed to Heroku and MongoDB Atlas while Frontend on Netlify.",
+          desc: "A Fullstack Recipe collection site built in React.js with Typescript, consuming a Rest-API built with NodeJs, Express and MongoDB. Backend deployed to Heroku and MongoDB Atlas while Frontend on Netlify.",
           link: "https://github.com/StellaSFE96/Recipe-site-React",
           imagePath: require("../assets/recipes/recipe.png"),
         },
