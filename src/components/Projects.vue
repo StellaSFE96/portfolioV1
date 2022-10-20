@@ -38,7 +38,6 @@ export default {
         {
           title: "Lindcode tutorials learning platform",
           desc: "A Fullstack web app built in React.js with Javascript, SCSS and Axios consuming a Rest-API built with MongoDB on Railway, Mongoose, NodeJs and ExpressJs",
-          link: "https://github.com/StellaSFE96/Recipe-site-React",
           imagePath: require("../assets/lindcode/tutorial.png"),
         },
         {
