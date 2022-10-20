@@ -53,7 +53,7 @@
         >
         <a
           class="resume link link-5"
-          href="https://drive.google.com/file/d/16xjjrHA8535ivE32Gpj5-qhilwQiOdj0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1jxtXT5TMp1cxJPxrKXV7IVIxTEFIDg-S/view?usp=sharing"
           data-aos="fade-down"
           data-aos-delay="500"
           data-aos-easing="ease"
