@@ -77,7 +77,7 @@ export default {
 
     h1 {
       font-family: "Karla", sans-serif;
-      font-size: 3.8rem;
+      font-size: 3rem;
       color: #ce34ab;
     }
 

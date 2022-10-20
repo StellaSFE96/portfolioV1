@@ -49,13 +49,14 @@ export default {};
 
     h1 {
       font-family: "Karla", sans-serif;
-      font-size: 3.8rem;
+      font-size: 3rem;
       color: #ce34ab;
+      margin-bottom: 20px;
     }
 
     p {
       font-family: "Roboto", sans-serif;
-      font-size: 1.1rem;
+      font-size: 1rem;
       letter-spacing: 1px;
       color: #b495ad;
     }
@@ -69,7 +70,7 @@ export default {};
       background-color: #bb349b;
       border-radius: 30px;
       color: #f1c1e6;
-      font-size: 1.7em;
+      font-size: 1.5em;
       margin-top: 2rem;
       padding: 6px;
       transition: transform 300ms ease-in-out;

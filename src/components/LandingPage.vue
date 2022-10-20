@@ -95,7 +95,7 @@ export default {
 
   h1 {
     font-family: "Karla", sans-serif;
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: #fcddec;
     span {
       color: #ce34ab;
@@ -103,7 +103,7 @@ export default {
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     max-width: 80%;
   }
   h3 {

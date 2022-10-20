@@ -18,9 +18,11 @@
               <strong>{{ project.title }}</strong>
             </h2>
             <p>{{ project.desc }}</p>
+            <!-- v-if="Object.values(projects).includes('link').length !== 0" -->
             <a v-bind:href="'' + project.link" target="_blank">
               <img class="git-logo" :src="gitLogo" />
             </a>
+            <!-- <div v-else></div> -->
           </div>
           <img :src="project.imagePath" />
         </li>
@@ -38,6 +40,7 @@ export default {
         {
           title: "Lindcode tutorials learning platform",
           desc: "A Fullstack web app built in React.js with Javascript, SCSS and Axios consuming a Rest-API built with MongoDB on Railway, Mongoose, NodeJs and ExpressJs",
+          link: "",
           imagePath: require("../assets/lindcode/tutorial.png"),
         },
         {
@@ -99,13 +102,13 @@ export default {
 
     h1 {
       font-family: "Karla", sans-serif;
-      font-size: 3.8rem;
+      font-size: 3rem;
       color: #ce34ab;
     }
 
     p {
       font-family: "Roboto", sans-serif;
-      font-size: 1.1rem;
+      font-size: 0.8rem;
       letter-spacing: 1px;
       color: #b495ad;
     }
@@ -134,6 +137,7 @@ export default {
     h2 {
       font-family: "karla", sans-serif;
       color: #ebc0d5;
+      font-size: 1rem;
     }
 
     p {
