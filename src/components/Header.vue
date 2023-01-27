@@ -40,7 +40,7 @@
           data-aos-delay="700"
           data-aos-easing="ease"
           data-aos-duration="2000"
-          >WORK</a
+          >PROJECTS</a
         >
         <a
           class="link link-4"
