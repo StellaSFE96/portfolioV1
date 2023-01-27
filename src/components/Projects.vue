@@ -18,11 +18,13 @@
               <strong>{{ project.title }}</strong>
             </h2>
             <p>{{ project.desc }}</p>
-            <!-- v-if="Object.values(projects).includes('link').length !== 0" -->
-            <a v-bind:href="'' + project.link" target="_blank">
+            <a
+              v-if="project.link"
+              v-bind:href="'' + project.link"
+              target="_blank"
+            >
               <img class="git-logo" :src="gitLogo" />
             </a>
-            <!-- <div v-else></div> -->
           </div>
           <img :src="project.imagePath" />
         </li>
@@ -37,6 +39,12 @@ export default {
     return {
       gitLogo: require("../assets/github/GitHub-Mark-Light-120px-plus.png"),
       projects: [
+        {
+          title: "Portfolio project",
+          desc: "A Headless CMS project built in GatsbyJs with Javascript, SCSS and GraphQl to query data from the Contentful CMS.",
+          link: "https://github.com/StellaSFE96/contentful-gatsby-portfolio",
+          imagePath: require("../assets/portfolio/gatsby-portfolio.png"),
+        },
         {
           title: "Lindcode tutorials learning platform",
           desc: "A Fullstack web app built in React.js with Javascript, SCSS and Axios consuming a Rest-API built with MongoDB on Railway, Mongoose, NodeJs and ExpressJs",
