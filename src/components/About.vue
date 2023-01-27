@@ -13,7 +13,7 @@
         I'm currently <strong>studying</strong> Frontend development at the
         <strong>IT College</strong> in Stockholm. I have great interest in
         Design, Technology and everything in between. Follow me on my
-        <strong>journey</strong> to learn coding.
+        <strong>journey</strong> in learning to code.
       </p>
       <p>
         Now I'm looking for my second Frontend Developer
