@@ -16,7 +16,15 @@ const skills = [
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
+    name: "ReactJs",
+    arrow: require("../../assets/icons/up-arrow.svg"),
+  },
+  {
     name: "Vue.js",
+    arrow: require("../../assets/icons/up-arrow.svg"),
+  },
+  {
+    name: "GatsbyJs",
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
@@ -24,15 +32,19 @@ const skills = [
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
-    name: "Bootstrap",
+    name: "GraphQl",
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
-    name: "SQL",
+    name: "noSQL (MongoDB)",
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
-    name: "NPM",
+    name: "SQL (PostgreSQL)",
+    arrow: require("../../assets/icons/up-arrow.svg"),
+  },
+  {
+    name: "Headless CMS",
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
@@ -44,7 +56,7 @@ const skills = [
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
-    name: "Git & Github",
+    name: "Git",
     arrow: require("../../assets/icons/up-arrow.svg"),
   },
   {
