@@ -11,13 +11,12 @@
       <h1>/ About me</h1>
       <p>
         I'm currently <strong>studying</strong> Frontend development at the
-        <strong>IT Högskola</strong> in Stockholm. My interest in web
-        development peaked with HTML & CSS when I wanted to change a font color
-        in my personal blog. I had no clue what I was looking at while browsing
-        the code! This set me on a <strong>journey</strong> to learn coding.
+        <strong>IT College</strong> in Stockholm. I have great interest in
+        Design, Technology and everything in between. Follow me on my
+        <strong>journey</strong> to learn coding.
       </p>
       <p>
-        Now I'm looking for my very first Frontend Developer
+        Now I'm looking for my second Frontend Developer
         <strong>internship</strong> where I get to use my
         <strong>curiosity</strong>, <strong>drive</strong> and prior
         <strong>experience</strong>
