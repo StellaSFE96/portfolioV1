@@ -51,6 +51,8 @@
           data-aos-duration="2000"
           >CONTACT</a
         >
+
+        <!--
         <a
           class="resume link link-5"
           href="https://drive.google.com/file/d/1jxtXT5TMp1cxJPxrKXV7IVIxTEFIDg-S/view?usp=sharing"
@@ -61,6 +63,7 @@
           target="_blank"
           >RESUMÉ</a
         >
+        -->
       </div>
     </div>
   </div>
